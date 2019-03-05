@@ -1,0 +1,171 @@
+body{
+margin:10;
+padding:0;
+}
+body{
+width:85%;
+margin: auto;
+border-left:1px dashed #FFE4E1;
+border-right:1px dashed #FFE4E1;
+background-color:transparent;
+}
+header{ 
+margin-bottom:0,1px;
+
+}
+header,footer{ 
+height:150px;
+background-color:#551A8B;
+}
+h1{
+Font:20px verdana;
+background-color:#363636;
+padding:10px 30px;
+width:90%;
+border-radius: 0 20px 20px 0;
+box-shadow:8px 8px 8px #8B008B;
+margin:0 0 40px 0;
+}
+h2{
+word-spacing:0.1em;
+letter-spacing:-0,08em;
+border-left:10px solid #FFE4E1;
+border-bottom:5px dashed #FFE4E1;
+border-radius:0 0 0 15px;
+width:60%;
+padding:8px 6px
+}
+h3:before{
+content:">>";
+}
+h2,h3{
+font-family:Verdana;
+margin:8px 12px;
+}
+p{
+font: 14px verdana;
+line-height:1.6em;
+padding:8px 10px 10px 12px;
+text-align: justify; 
+}
+p:first-letter{
+font:bold 25px garamond;
+text-transform:uppercase:
+}
+
+span{
+		background-color:#8B008B;
+		display:inline-block;
+		padding:7px 0;
+		width:100%;
+		text-align: center;
+		}
+		a{
+		text-transform:uppercase;
+		font:20px verdana;
+		text-decoration:none;
+		color:blue;
+		}
+		a:visited{
+		color:#EEAEEE;
+		}
+		a:hover{
+		color:white;
+		}
+		nav ul {
+		margin-bottom: 15px;
+		height:100px;
+		}	
+
+
+ul{
+	list-style-type:none;
+	margin:10;
+	padding:0;
+	background-color:#363636;
+	overflow: hidden;
+
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: black;
+}
+header.cris{ 
+background-color:#343a40;
+background:url("../imagens/maos.jpg") center;
+padding-top:50px;
+padding-bottom: 8px; 
+width:100%;
+display:inline-block;
+}
+header.eu{
+background:url("../imagens/empoderamento-feminino-mulheres-fortes.png") center;
+padding-top:300px;
+padding-bottom: 0px;
+width: auto;
+height: auto;
+
+}
+header.grace{
+background:url("../imagens/Puxando-pela-memoria.gif");
+padding-top:200px;
+padding-bottom: 0px;
+width: 100%;
+height: auto;
+}
+header.hedy{ 
+background:url("../imagens/borboleta.gif") center;
+padding-top:200px;
+padding-bottom: 5px;
+width:auto;
+height: auto;
+}
+header{ 
+margin-bottom:10px;
+position:relative;
+overflow:hidden
+}
+
+header.gato-move{
+background:url("../imagens/gato-walking.gif") center; 
+animation:gato-move 20s infinite;
+width: 220px;  height: 90px; 
+margin-top: 10px; 
+ font-size: 200px;
+ background-size: contain;
+ background-repeat: no-repeat;
+}
+@keyframes gato-move{
+0%{
+left:0px;
+}
+100%
+{
+left:100%;
+}
+}
+
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+  section {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
+
